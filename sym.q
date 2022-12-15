@@ -5,3 +5,4 @@ quote:([]time:`timestamp$();sym:`symbol$();bid:`float$();ask:`float$();bsize:`lo
 trade:([]time:`timestamp$();sym:`symbol$();price:`float$();size:`long$());
 // Aggregation Table Schema
 aggTrade:([sym:`symbol$()];time:`timestamp$();maxTPrice:`float$();minTPice:`float$();tVolume:`long$();bestBid:`float$();bestAsk:`float$());
+//adding comment to sym.q file
